@@ -139,7 +139,7 @@ font-weight: 900;
     
 @media (max-width: 376px )   { 
 .fundoNome{
-height:10em;
+height:8em;
 }
 .oláEuSouJuan{
 left: -30rem;
@@ -169,7 +169,7 @@ border-bottom: 2px solid #7028e4;
 /*CELL POSIÇÃO PORTA RETRATO*/
 @media (min-width: 377px) and (max-width: 575.98px) {
 .fundoNome{
-height: 10em;
+height: 8em;
 }
 .oláEuSouJuan{
 left: -30rem;
@@ -198,7 +198,7 @@ border-bottom: 2px solid #7028e4;
 /*CELL MODO PAISAGEM*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
 .fundoNome{
-height: 15em;
+height: 12em;
 }
 .oláEuSouJuan{
 left: -30rem;
@@ -231,7 +231,7 @@ border-bottom: 2px solid #7028e4;
 /*TABLETS*/
 @media (min-width: 768px) and (max-width: 991.98px) {
 .fundoNome{
-height: 19em;
+height: 15em;
 }
 .oláEuSouJuan{
 left: -30rem;
@@ -260,7 +260,7 @@ border-bottom: 2px solid #7028e4;
 /*NOTEBOOKS*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 .fundoNome{
-height: 20em;
+height: 18em;
 }
 .oláEuSouJuan{
 left: -30rem;
