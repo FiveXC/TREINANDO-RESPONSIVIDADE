@@ -139,7 +139,7 @@ font-weight: 900;
     
 @media (max-width: 376px )   { 
 .fundoNome{
-height:20vh;
+height:10em;
 }
 .oláEuSouJuan{
 left: -30rem;
@@ -152,13 +152,13 @@ transition: 1s;
 height: 13rem;
 }
 .minhaFoto{
-width: 50%;
-height: 35vh;
+width: 10em;
+height: 10em;
 border-radius: 10rem;
 margin-bottom: 1rem;
 }
 .acordeon.mover2{
-height: 35vh;
+height: 14em;
 transition: 1s;
 }
 .acordeon.mover2{
@@ -169,7 +169,7 @@ border-bottom: 2px solid #7028e4;
 /*CELL POSIÇÃO PORTA RETRATO*/
 @media (min-width: 377px) and (max-width: 575.98px) {
 .fundoNome{
-height: 24vh;
+height: 10em;
 }
 .oláEuSouJuan{
 left: -30rem;
@@ -182,12 +182,12 @@ transition: 1s;
 height: 14rem;
 }
 .minhaFoto{
-width: 30%;
-height:30vh;
+width: 10em;
+height:10em;
 border-radius: 10rem;
 }
 .acordeon.mover2{
-height: 33vh;
+height: 14em;
 transition: 1s;
 }
 .acordeon.mover2{
@@ -198,7 +198,7 @@ border-bottom: 2px solid #7028e4;
 /*CELL MODO PAISAGEM*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
 .fundoNome{
-height: 30vh;
+height: 15em;
 }
 .oláEuSouJuan{
 left: -30rem;
@@ -216,10 +216,10 @@ height:15em;
 border-radius: 100rem;
 }
 .acordeon{
-height: 8vh;
+height: 2em;
 }
 .acordeon.mover2{
-height: 30vh;
+height: 11em;
 transition: 1s;
 }
 .acordeon.mover2{
@@ -230,11 +230,8 @@ border-bottom: 2px solid #7028e4;
         
 /*TABLETS*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-.navmenu.ExpandirMenu{
-transform: translateX(70rem);
-}
 .fundoNome{
-height: 28vh;
+height: 19em;
 }
 .oláEuSouJuan{
 left: -30rem;
@@ -247,8 +244,8 @@ transition: 1s;
 height: 14rem;
 }
 .minhaFoto{
-width: 35%;
-height:42vh;
+width: 10em;
+height:10em;
 border-radius: 40rem;
 }
 .acordeon.mover2{
@@ -262,39 +259,8 @@ border-bottom: 2px solid #7028e4;
 
 /*NOTEBOOKS*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-.areahamburguer{
-display: flex;
-align-items: center;
-width: 5%;
-height: 6vh;
-right: 2%;
-top: 2%;
-}
-.hamburguer {
-left: 30%;
-top: 30%;
-border-top: 2px solid black;
-width: 2vw;
-}
-.hamburguer::after, .hamburguer::before{
-display: flex;
-width: 2vw;
-height: 0.3vh;
-}
-.navmenu{
-height: 15vh;
-display: flex;
-align-items: center;
-justify-content: center;
-left: -80rem;
-transition: 0.1s;
-background-color: black;
-}
-.navmenu.ExpandirMenu{
-transform: translateX(80rem);
-}
 .fundoNome{
-height: 28vh;
+height: 20em;
 }
 .oláEuSouJuan{
 left: -30rem;
@@ -307,8 +273,8 @@ transition: 1s;
 height: 14rem;
 }
 .minhaFoto{
-width: 30%;
-height:40vh;
+width: 20em;
+height:20em;
 border-radius: 10rem;
 }
 .acordeon.mover2{
