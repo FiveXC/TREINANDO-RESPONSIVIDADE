@@ -198,7 +198,7 @@ border-bottom: 2px solid #7028e4;
 /*CELL MODO PAISAGEM*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
 .fundoNome{
-height: 28vh;
+height: 40vh;
 }
 .oláEuSouJuan{
 left: -30rem;
@@ -212,14 +212,14 @@ height: 14rem;
 }
 .minhaFoto{
 width: 30%;
-height:40vh;
+height:60vh;
 border-radius: 10rem;
 }
 .acordeon{
 height: 8.6vh;
 }
 .acordeon.mover2{
-height: 35vh;
+height: 45vh;
 transition: 1s;
 }
 .acordeon.mover2{
@@ -230,34 +230,6 @@ border-bottom: 2px solid #7028e4;
         
 /*TABLETS*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-.areahamburguer{
-display: flex;
-align-items: center;
-width: 7%;
-height: 7vh;
-right: 2%;
-top: 2%;
-}
-.hamburguer {
-left: 26%;
-top: 38%;
-border-top: 2px solid black;
-width: 3vw;
-}
-.hamburguer::after, .hamburguer::before{
-display: flex;
-width: 3vw;
-height: 0.2vh;
-}
-.navmenu{
-height: 15vh;
-display: flex;
-align-items: center;
-justify-content: center;
-left: -70rem;
-transition: 0.1s;
-background-color: black;
-}
 .navmenu.ExpandirMenu{
 transform: translateX(70rem);
 }
