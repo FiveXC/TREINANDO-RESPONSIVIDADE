@@ -211,15 +211,15 @@ transition: 1s;
 height: 14rem;
 }
 .minhaFoto{
-width: 30%;
-height:80vh;
+width: 15em;
+height:15em;
 border-radius: 100rem;
 }
 .acordeon{
-height: 12vh;
+height: 8vh;
 }
 .acordeon.mover2{
-height: 60vh;
+height: 30vh;
 transition: 1s;
 }
 .acordeon.mover2{
