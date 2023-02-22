@@ -161,6 +161,9 @@ margin-bottom: 1rem;
 height: 14em;
 transition: 1s;
 }
+.acordeon{
+height: 2.5em;
+}
 .acordeon.mover2{
 border-bottom: 2px solid #7028e4;
 }
@@ -186,8 +189,11 @@ width: 10em;
 height:10em;
 border-radius: 10rem;
 }
+.acordeon{
+height: 2.5em;
+}
 .acordeon.mover2{
-height: 14em;
+height: 15em;
 transition: 1s;
 }
 .acordeon.mover2{
@@ -216,7 +222,7 @@ height:15em;
 border-radius: 100rem;
 }
 .acordeon{
-height: 2em;
+height: 2.5em;
 }
 .acordeon.mover2{
 height: 11em;
@@ -248,8 +254,11 @@ width: 10em;
 height:10em;
 border-radius: 40rem;
 }
+.acordeon{
+height: 2.5em;
+}
 .acordeon.mover2{
-height: 28vh;
+height: 10em;
 transition: 1s;
 }
 .acordeon.mover2{
@@ -277,8 +286,11 @@ width: 20em;
 height:20em;
 border-radius: 10rem;
 }
+.acordeon{
+height: 2.5em;
+}
 .acordeon.mover2{
-height: 18vh;
+height: 10em;
 transition: 1s;
 }
 .acordeon.mover2{
