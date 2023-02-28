@@ -22,4 +22,18 @@ if(moverExiste){
 
 window.onload = () => {
     oláEuSouJuan.classList.add("mover")
- }
+}
+
+
+let alturaDoWindow = window.innerHeight 
+
+
+window.addEventListener("scroll", (event) => {
+
+if (document.documentElement.scrollTop > alturaDoWindow/ 2) {
+   btnTopo.classList.add("aparecer")
+} 
+else if(document.documentElement.scrollTop < 80){
+   btnTopo.classList.remove("aparecer")
+}
+})
