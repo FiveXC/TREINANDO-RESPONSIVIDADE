@@ -1,7 +1,7 @@
 /*||*/
 let oláEuSouJuan = document.querySelector(".oláEuSouJuan")
 let acordeon = document.querySelectorAll(".acordeon")
-
+let btnTopo = document.querySelector(".btnTopo")
 acordeon.forEach(function(item){
     
 item.addEventListener("click", ()=>{
@@ -20,9 +20,10 @@ if(moverExiste){
 })
 })
 
+
 window.onload = () => {
     oláEuSouJuan.classList.add("mover")
-}
+ }
 
 
 let alturaDoWindow = window.innerHeight 
