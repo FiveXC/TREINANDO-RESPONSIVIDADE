@@ -134,6 +134,27 @@ align-items: center;
 justify-content: center;
 font-weight: 900;
 }
+.btnTopo{
+position: fixed;
+top: 30em;
+right: 1em;
+opacity: 0;
+width: 3em;
+height: 3em;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10rem;
+cursor: pointer;
+ }
+.btnTopo.aparecer{
+opacity: 1;
+transition: 1s;
+}
+.setaup{
+font-size: 1rem;
+color: #7028e4;
+}
     
 /*IPHONE SR PARA BAIXO*/
     
